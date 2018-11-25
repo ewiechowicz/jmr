@@ -1,13 +1,14 @@
 {
-  "main.css": "/jmr/static/css/main.5026be8e.chunk.css",
-  "main.js": "/jmr/static/js/main.9d798e1c.chunk.js",
-  "main.js.map": "/jmr/static/js/main.9d798e1c.chunk.js.map",
+  "main.css": "/jmr/static/css/main.5795ac3a.chunk.css",
+  "main.js": "/jmr/static/js/main.8c0ef721.chunk.js",
+  "main.js.map": "/jmr/static/js/main.8c0ef721.chunk.js.map",
   "static/js/1.67d90751.chunk.js": "/jmr/static/js/1.67d90751.chunk.js",
   "static/js/1.67d90751.chunk.js.map": "/jmr/static/js/1.67d90751.chunk.js.map",
   "runtime~main.js": "/jmr/static/js/runtime~main.8c926c5c.js",
   "runtime~main.js.map": "/jmr/static/js/runtime~main.8c926c5c.js.map",
-  "static/css/main.5026be8e.chunk.css.map": "/jmr/static/css/main.5026be8e.chunk.css.map",
+  "static/media/App.css": "/jmr/static/media/raspberry.0521a4b5.jpg",
+  "static/css/main.5795ac3a.chunk.css.map": "/jmr/static/css/main.5795ac3a.chunk.css.map",
   "index.html": "/jmr/index.html",
-  "precache-manifest.4d5922dfa5bbb7bbd9f3d774c00d6079.js": "/jmr/precache-manifest.4d5922dfa5bbb7bbd9f3d774c00d6079.js",
+  "precache-manifest.7c634bcbc2092a244d2887cd2ac9519b.js": "/jmr/precache-manifest.7c634bcbc2092a244d2887cd2ac9519b.js",
   "service-worker.js": "/jmr/service-worker.js"
 }
