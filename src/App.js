@@ -21,7 +21,7 @@ const modalStyles = {
 
 export default class App extends Component {
   state = {
-    modalOpen: true,
+    modalOpen: false,
     login: '',
     password: '',
   }
