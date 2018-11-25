@@ -88,7 +88,6 @@ export default class App extends Component {
             <button className="button" type="submit">LOG IN</button>
           </form>
         </Modal>
-
       </div>
     );
   }
