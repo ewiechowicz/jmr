@@ -14,16 +14,14 @@ const modalStyles = {
     height: 340,
     display: 'flex',
     flexDirection: 'column',
+    paddingRight: 40,
+    paddingLeft: 40,
   }
 };
 
-// Correct credentials:
-// correct_login@example.com
-// C0rr3Ct_P@55w0rd
-
 export default class App extends Component {
   state = {
-    modalOpen: false,
+    modalOpen: true,
     login: '',
     password: '',
   }
@@ -56,6 +54,9 @@ export default class App extends Component {
         throw new Error(result.message);
       }
       alert(result.message);
+      this.setState({
+        modalOpen: false,
+      });
     } catch (e) {
       alert(String(e));
     }
@@ -68,21 +69,23 @@ export default class App extends Component {
           isOpen={this.state.modalOpen}
           style={modalStyles}
         >
-          <h3>Are you a Raspberry Knight?</h3>
+          <div className="header">Are you a Raspberry Knight?</div>
           <form className="login-form" onSubmit={this.onLoginSubmit}>
             <input
+              className="input"
               onChange={e => this.setState({ login: e.target.value })}
               placeholder="Email"
               type="email"
               value={this.state.login}
             />
             <input
+              className="input"
               onChange={e => this.setState({ password: e.target.value })}
               placeholder="Password"
               type="password"
               value={this.state.password}
             />
-            <button type="submit">Login</button>
+            <button className="button" type="submit">LOG IN</button>
           </form>
         </Modal>
 
